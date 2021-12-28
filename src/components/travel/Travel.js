@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import axios from "axios";
 
 
-
+let componentDidMount = () => {
+    window.scrollTo(0, 0);
+}
+componentDidMount()
 
 const Travel = () => {
     const [state, setState] = useState(5);

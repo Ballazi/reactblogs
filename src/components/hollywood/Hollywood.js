@@ -4,6 +4,14 @@ import axios from "axios";
 
 
 
+
+let componentDidMount = () => {
+    window.scrollTo(0, 0);
+}
+componentDidMount()
+
+
+
 const Hollywood = () => {
     const [state, setState] = useState(5);
     // let arr = ArrayofBlogs.filter((val) => val.category === "Hollywood");

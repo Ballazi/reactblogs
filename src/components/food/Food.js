@@ -4,6 +4,11 @@ import axios from "axios";
 
 
 
+let componentDidMount = () => {
+    window.scrollTo(0, 0);
+}
+componentDidMount()
+
 const Food = () => {
     const [state, setState] = useState(5)
     const [blogs,setBlogs] =useState([]);

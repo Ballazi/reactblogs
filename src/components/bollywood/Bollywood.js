@@ -4,7 +4,10 @@ import axios from "axios";
 // import "./bollywood.css";
 
 
-
+let componentDidMount = () => {
+    window.scrollTo(0, 0);
+}
+componentDidMount()
 
 
 
