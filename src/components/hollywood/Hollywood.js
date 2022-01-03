@@ -20,7 +20,7 @@ const Hollywood = () => {
     useEffect(() =>{
         // window.scrollTo({top:0,left:0,behavior:"smooth"});
         const category = "Hollywood";
-        const url = "https://react-blog-node-pro.herokuapp.com/api/v1/hollywood/";
+        const url = "https://testing-react-blog.herokuapp.com/api/v1/hollywood/";
         axios.get(url,{params:{category:category}}).then((res) => {setBlogs(res.data.arr)}).catch((err) => {console.log(err);})
 
     })

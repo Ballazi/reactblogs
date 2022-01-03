@@ -26,7 +26,7 @@ const Travel = () => {
     }
 
     useEffect (()=>{
-        const url = "https://react-blog-node-pro.herokuapp.com/api/v1/travel";
+        const url = "https://testing-react-blog.herokuapp.com/api/v1/travel";
         axios.get(url).then((res) => {setBlogs(res.data.arr)}).catch((err) => {console.log(err)});
     })
 

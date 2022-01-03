@@ -31,7 +31,7 @@ const Bollywood = () => {
     }
 
     useEffect (() => {
-        const url = "https://react-blog-node-pro.herokuapp.com/api/v1/bollywood/";
+        const url = "https://testing-react-blog.herokuapp.com/api/v1/bollywood/";
         axios.get(url).then((res) => {setBlogs(res.data.arr)}).catch((err) => {console.log(err)});
     })
 
